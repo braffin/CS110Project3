@@ -1,4 +1,6 @@
+//STOLEN DIRECTLY FROM MARSHALL, witha few changes to match what I wanted
 // Fig. 6.8: Craps.java
+
 // Craps class simulates the dice game craps.
 package project3;
 
@@ -36,7 +38,7 @@ public class Craps
    private static final int BOX_CARS = 12;
 
    // plays craps
-public static void main(String[] args) throws IOException{runcraps2();}
+//public static void main(String[] args) throws IOException{runcraps2();}
    
    public void runcraps2(){againstatus=PlayAgain.YES;for(;againstatus==PlayAgain.YES;){runcraps();PlayAgainPrompt();}}
    

@@ -1,0 +1,6 @@
+This Casino Driver asks the User for a name to call themselves.
+Then, it asks which game they want to play: BlacJack, War, or Craps.
+Whichever the game the user clicks, it runs that game one time, and asks if the user wants to play again
+clicking yes plays again, clicking no returns the user to the title screen to pick a new game.
+At the end of each game, the user is declared the winner or loser, and the number of times the user won or lost 
+		are stored to be reopened and added to if the game is played again later.
